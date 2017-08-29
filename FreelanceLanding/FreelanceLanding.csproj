@@ -155,31 +155,62 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\animate.css" />
+    <Content Include="Content\css\font-awesome.css" />
+    <Content Include="Content\css\font-awesome.min.css" />
+    <Content Include="Content\css\namari-color.css" />
+    <Content Include="Content\css\style.css" />
+    <Content Include="Content\images\banner-images\banner-image-1.jpg" />
+    <Content Include="Content\images\company-images\company-logo1.png" />
+    <Content Include="Content\images\company-images\company-logo2.png" />
+    <Content Include="Content\images\company-images\company-logo3.png" />
+    <Content Include="Content\images\company-images\company-logo4.png" />
+    <Content Include="Content\images\company-images\company-logo5.png" />
+    <Content Include="Content\images\company-images\company-logo6.png" />
+    <Content Include="Content\images\company-images\company-logo7.png" />
+    <Content Include="Content\images\company-images\company-logo8.png" />
+    <Content Include="Content\images\company-images\company-logo9.png" />
+    <Content Include="Content\images\dancer.jpg" />
+    <Content Include="Content\images\favicon.ico" />
+    <Content Include="Content\images\gallery-images\gallery-image-1.jpg" />
+    <Content Include="Content\images\gallery-images\gallery-image-2.jpg" />
+    <Content Include="Content\images\gallery-images\gallery-image-3.jpg" />
+    <Content Include="Content\images\gallery-images\gallery-image-4.jpg" />
+    <Content Include="Content\images\gallery-images\gallery-image-5.jpg" />
+    <Content Include="Content\images\gallery-images\gallery-image-6.jpg" />
+    <Content Include="Content\images\logo-2.png" />
+    <Content Include="Content\images\logo.png" />
+    <Content Include="Content\images\user-images\user-1.jpg" />
+    <Content Include="Content\images\user-images\user-2.jpg" />
+    <Content Include="Content\images\user-images\user-3.jpg" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
     <None Include="Properties\PublishProfiles\FreelanceLanding - Web Deploy.pubxml" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.min.js" />
-    <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Scripts\featherlight.gallery.min.js" />
+    <Content Include="Scripts\featherlight.min.js" />
+    <Content Include="Scripts\images-loaded.min.js" />
+    <Content Include="Scripts\jquery.1.8.3.min.js" />
+    <Content Include="Scripts\jquery.easing.min.js" />
+    <Content Include="Scripts\jquery.enllax.min.js" />
+    <Content Include="Scripts\jquery.scrollUp.min.js" />
+    <Content Include="Scripts\jquery.stickyNavbar.min.js" />
+    <Content Include="Scripts\jquery.waypoints.min.js" />
+    <Content Include="Scripts\lightbox.min.js" />
+    <Content Include="Scripts\pushy.min.js" />
+    <Content Include="Scripts\site.js" />
+    <Content Include="Scripts\wow.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -187,11 +218,6 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Views\Web.config" />
-    <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -199,12 +225,11 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
