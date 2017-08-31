@@ -536,6 +536,14 @@ section {
     opacity: 0.5;
 }
 
+#banner .button {
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	opacity: 0.5;
+}
+
 #header.nav-solid .social-icons a:hover {
     opacity: 1;
     color: #e4473c;
