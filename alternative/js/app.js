@@ -1,5 +1,7 @@
 $(function() {
   "use strict";
+
+  /* Members slider */
   $('.about-member-info').last().show().animate({
     width: '94%'
   },{
@@ -43,5 +45,24 @@ $(function() {
               maxHeight = maxHeight > $(this).height() ? maxHeight : $(this).height();
             });
         $('.about-member-header').css('height', maxHeight +'px');
+        hideLoader();
     }
+
+
+    var loaderHided = false;
+    /* Loader*/
+    function hideLoader(){
+        if(!loaderHided){
+            $('#loader')
+              .animate(
+                {
+                  opacity: 0
+                },
+                {
+                  complete: function(){
+                    $('#loader').hide();
+                  }
+                });
+        }
+      };
 });
