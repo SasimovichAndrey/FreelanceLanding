@@ -109,7 +109,7 @@ body{
 
 .about-member-info{
 		
-	height:550px;
+	height: 0;
 	float:left;
 	width:0;
 	display:none;
@@ -119,11 +119,11 @@ body{
 .member-photo, .member-info{
 	margin:20px;
 	float: left;
-	height: 550px;
 }
 
 .member-photo{
 	width: 25%;
+	height: 550px;
 }
 
 .member-photo img{
@@ -136,6 +136,7 @@ body{
 .member-info{
 	width:60%;
 	text-align: justify;
+	height: auto;
 }
 
 .paragraph-start{
