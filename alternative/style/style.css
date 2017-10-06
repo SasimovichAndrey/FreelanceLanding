@@ -66,43 +66,33 @@ body{
   }
 }
 
-#page-box{
-	margin: 0px auto;
-	width: 900px;
+
+#logo-container{
+	padding: 0;
 }
 
-.logo{
-	float:left;
-	height:100%;
+#header{
+	padding: 10px;
 }
 
 #menu{
 	background-color: #ffffff;
-	border: 1px solid #E6EAEA;
-	height: 55px;
 	padding:10px;
 }
 
-#menu ul{
-	margin: 0;
-	padding: 0;
-}
-
-#menu ul li{
+#menu a{
 	display: block;
-	float:right;
-}
-
-#menu ul li a{
-	display: block;
-	padding: 10px;
 	text-decoration: none;
 	color: #545454;
 	font-weight: 600;
 }
 
-#menu ul li a:hover{
+#menu a:hover{
 	color: #ff3b3f;
+}
+
+.menu-item{
+	height: 100%;
 }
 
 #about-us, #contacts{
