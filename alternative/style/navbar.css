@@ -1,0 +1,16 @@
+.navbar{
+	width: 100%;
+	
+}
+
+
+.navbar a{
+	display: block;
+	text-decoration: none;
+	color: #545454;
+	font-weight: 600;
+}
+
+.navbar a:hover{
+	color: #ff3b3f;
+}

@@ -66,35 +66,6 @@ body{
   }
 }
 
-
-#logo-container{
-	padding: 0;
-}
-
-#header{
-	padding: 10px;
-}
-
-#menu{
-	background-color: #ffffff;
-	padding:10px;
-}
-
-#menu a{
-	display: block;
-	text-decoration: none;
-	color: #545454;
-	font-weight: 600;
-}
-
-#menu a:hover{
-	color: #ff3b3f;
-}
-
-.menu-item{
-	height: 100%;
-}
-
 #about-us, #contacts{
 	background-color: #efefef;
 	padding:20px;
