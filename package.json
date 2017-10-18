@@ -19,6 +19,7 @@
   "homepage": "https://github.com/SasimovichAndrey/FreelanceLanding#readme",
   "dependencies": {
     "connect": "^3.6.5",
+    "debug": "^3.1.0",
     "serve-static": "^1.13.1"
   }
 }
