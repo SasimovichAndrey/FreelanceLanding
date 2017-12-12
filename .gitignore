@@ -11,3 +11,6 @@ bld/
 [Oo]bj/
 [Ll]og/
 *.user
+
+dist/
+node_modules/
