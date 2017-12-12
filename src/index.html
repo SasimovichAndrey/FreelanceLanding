@@ -117,8 +117,14 @@ web user interfaces development and trying to improve my frontend skills.
 						If you want to get in touch, you can contact us at <a href="mailto:twobro@gmail.com">twobro@gmail.com</a>
 					</div>
 				</div>
+				<div id="google-map" class="row">
+					
+				</div>
 			</main>
 			<div id="footer" class="row">
+				<div class="col-12">
+					Created by TwoBro (c) 2017
+				</div>
 			</div>
 		</div>
 
@@ -139,5 +145,20 @@ web user interfaces development and trying to improve my frontend skills.
 			gtag('config', 'UA-110967449-1');
 		</script>
 		<!-- @endif -->
+		<script>
+			function initMap() {
+			  var uluru = {lat: 53.672737, lng: 23.820510};
+			  var map = new google.maps.Map(document.getElementById('google-map'), {
+				zoom: 3,
+				center: uluru
+			  });
+			  var marker = new google.maps.Marker({
+				position: uluru,
+				map: map
+			  });
+			}
+		  </script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCozmIkO9ixX_Ok4S4vUngozh503S7wJTQ&callback=initMap">
+		</script>
 	</body>
 </html>
